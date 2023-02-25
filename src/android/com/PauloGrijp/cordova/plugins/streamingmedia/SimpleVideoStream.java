@@ -134,11 +134,10 @@ MediaPlayer.OnErrorListener, MediaPlayer.OnBufferingUpdateListener {
 		mVideoView.stopPlayback();
 	}
 
-	@Override
 	public void setSpeed(float speed) {
-		PlaybackParams pp = mVideoView.getPlaybackParams();
-		pp.setSpeed(speed);
-		mVideoView.setPlaybackParams(pp);
+		PlaybackParams playbackParams = new PlaybackParams();
+		playbackParams.setSpeed(speed);
+		mVideoView.getInternalMediaPlayer().setPlaybackParams(playbackParams);
 	}
 
 	@Override
