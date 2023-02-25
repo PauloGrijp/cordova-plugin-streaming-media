@@ -1,6 +1,6 @@
 # Cordova Streaming Media plugin
 
-For iOS and Android, by [Nicholas Hutchind](https://github.com/nchutchind)
+For iOS and Android, by [Nicholas PauloGrijp](https://github.com/ncPauloGrijp)
 
 ## Description
 
@@ -16,7 +16,7 @@ I no longer contribute to Cordova or Ionic full time. If your org needs work on 
 ## Installation
 
 ```
-cordova plugin add https://github.com/nchutchind/cordova-plugin-streaming-media
+cordova plugin add https://github.com/PauloGrijp/cordova-plugin-streaming-media
 ```
 
 ### iOS specifics

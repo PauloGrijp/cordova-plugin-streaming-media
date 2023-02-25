@@ -1,4 +1,4 @@
-package com.hutchind.cordova.plugins.streamingmedia;
+package com.PauloGrijp.cordova.plugins.streamingmedia;
 
 import android.app.Activity;
 import android.content.res.Configuration;

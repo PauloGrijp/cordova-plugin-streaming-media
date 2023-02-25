@@ -17,6 +17,6 @@ likely to be closed without merging.
 
 **Related issues**
 <!--
-Please review the (https://github.com/nchutchind/Streaming-Media-Cordova-Plugin/issues)
+Please review the (https://github.com/PauloGrijp/cordova-plugin-streaming-media/issues)
 page, and link any issues that are addressed or related to this PR.
 -->

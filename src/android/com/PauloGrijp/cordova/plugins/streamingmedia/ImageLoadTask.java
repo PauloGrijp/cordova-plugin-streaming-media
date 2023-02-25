@@ -1,4 +1,4 @@
-package com.hutchind.cordova.plugins.streamingmedia;
+package com.PauloGrijp.cordova.plugins.streamingmedia;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

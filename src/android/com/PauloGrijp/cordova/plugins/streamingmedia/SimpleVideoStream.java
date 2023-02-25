@@ -1,4 +1,4 @@
-package com.hutchind.cordova.plugins.streamingmedia;
+package com.PauloGrijp.cordova.plugins.streamingmedia;
 
 import android.app.Activity;
 import android.content.res.Configuration;
@@ -131,6 +131,12 @@ MediaPlayer.OnErrorListener, MediaPlayer.OnBufferingUpdateListener {
 	private void stop() {
 		Log.d(TAG, "Stopping video.");
 		mVideoView.stopPlayback();
+	}
+
+	public void setSpeed(float speed) {
+		PlaybackParams pp = mVideoView.getPlaybackParams();
+		pp.setSpeed(speed);
+		mVideoView.setPlaybackParams(pp);
 	}
 
 	@Override
