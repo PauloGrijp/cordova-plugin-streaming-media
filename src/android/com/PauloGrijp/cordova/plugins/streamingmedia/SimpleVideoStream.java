@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.Point;
+import android.media.PlaybackParams;
 import android.media.MediaPlayer;
 import android.widget.MediaController;
 import android.content.Intent;
@@ -133,6 +134,7 @@ MediaPlayer.OnErrorListener, MediaPlayer.OnBufferingUpdateListener {
 		mVideoView.stopPlayback();
 	}
 
+	@Override
 	public void setSpeed(float speed) {
 		PlaybackParams pp = mVideoView.getPlaybackParams();
 		pp.setSpeed(speed);
